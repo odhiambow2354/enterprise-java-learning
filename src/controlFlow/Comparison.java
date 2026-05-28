@@ -1,5 +1,8 @@
 //compares primitive values
 package controlFlow;
+
+import java.util.Scanner;
+
 public class Comparison{
     //boolean expression
     public static void main(String[] args){
@@ -30,5 +33,39 @@ public class Comparison{
         System.out.println(isHot);
         System.out.println(x==y);
         System.out.println(isEligible);
+        //switch statements
+        String role = "admin";
+        switch (role){
+            case "admin":
+                System.out.println("you're an administrator");
+                break;
+            case "moderator":
+                System.out.println("you're a moderator");
+                break;
+                default:
+                    System.out.println("you're a guest");
+        }
+
+
+        //QUIZ=> FizzBuzz
+
+        //If the number is divisible by 5 we get Buzz,
+        // if divisible by 3 we get
+        //if the number is divisible by both 3 and 5 we get FizzBuzz
+        //if not divisible by either we get the same number printed in the terminal
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter your preferred number " );
+        int number = Integer.parseInt(input.nextLine());
+        if(number % 5 ==0 && number % 3 ==0){
+            System.out.println("FizzBuzz");
+        }else if (number % 3 == 0){
+            System.out.println("Fizz");
+        }else if (number % 5 ==0 ){
+            System.out.println("Buzz");
+        }else{
+            System.out.println(number);
+        }
+
     }
 }
