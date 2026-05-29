@@ -24,7 +24,7 @@ import java.util.Scanner;
 public class InsurancePremiumCalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter base premium ");
+        System.out.print("Enter base premium: ");
         int basePremium = input.nextInt();
         System.out.print("Enter tax rate ");
         double taxRate = input.nextDouble();
