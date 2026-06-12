@@ -1,4 +1,4 @@
-package menu;
+package ECIMS.menu;
 
 import exception.PolicyNotFoundException;
 import model.Policy;

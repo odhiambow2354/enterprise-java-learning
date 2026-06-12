@@ -1,4 +1,4 @@
-package menu;
+package ECIMS.menu;
 
 import exception.AuthenticationException;
 import service.AuthService;

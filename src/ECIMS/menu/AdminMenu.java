@@ -1,7 +1,7 @@
 package menu;
 
 import log.TransactionLogger;
-import model.Employee;
+import ECIMS.model.Employee;
 import model.EmployeeFactory;
 import repository.EmployeeRepository;
 import service.AuthService;

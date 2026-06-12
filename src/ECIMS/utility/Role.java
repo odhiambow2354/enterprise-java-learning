@@ -1,4 +1,4 @@
-package utility;
+package ECIMS.utility;
 
 /**
  * Defines the four staff roles and their system prefixes.

@@ -1,7 +1,7 @@
 package menu;
 
 import exception.CustomerNotFoundException;
-import model.Customer;
+import ECIMS.model.Customer;
 import service.CustomerService;
 import utility.ConsoleUI;
 import utility.InputHelper;

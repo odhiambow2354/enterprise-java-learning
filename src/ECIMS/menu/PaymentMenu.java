@@ -1,4 +1,4 @@
-package menu;
+package ECIMS.menu;
 
 import model.Payment;
 import service.PaymentService;

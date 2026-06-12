@@ -1,4 +1,4 @@
-package menu;
+package ECIMS.menu;
 
 import model.*;
 import service.ReportService;
