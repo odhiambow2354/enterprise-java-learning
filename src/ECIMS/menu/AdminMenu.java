@@ -1,4 +1,4 @@
-package menu;
+package ECIMS.menu;
 
 import log.TransactionLogger;
 import ECIMS.model.Employee;
@@ -7,7 +7,7 @@ import repository.EmployeeRepository;
 import service.AuthService;
 import utility.ConsoleUI;
 import utility.InputHelper;
-import utility.Role;
+import ECIMS.utility.Role;
 
 import java.util.List;
 

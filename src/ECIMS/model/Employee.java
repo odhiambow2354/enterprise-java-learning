@@ -1,6 +1,6 @@
-package model;
+package ECIMS.model;
 
-import utility.Role;
+import ECIMS.utility.Role;
 
 /**
  * Represents a staff member of NIC.

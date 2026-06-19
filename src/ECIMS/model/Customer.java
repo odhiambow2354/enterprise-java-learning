@@ -1,4 +1,4 @@
-package model;
+package ECIMS.model;
 
 import java.time.LocalDate;
 

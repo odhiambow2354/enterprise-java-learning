@@ -1,4 +1,4 @@
-package model;
+package ECIMS.model;
 
 /**
  * Abstract base class for all people in the system.

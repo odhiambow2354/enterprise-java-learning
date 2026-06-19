@@ -1,4 +1,4 @@
-package menu;
+package ECIMS.menu;
 
 import exception.CustomerNotFoundException;
 import ECIMS.model.Customer;
